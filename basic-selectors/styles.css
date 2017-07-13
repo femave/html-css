@@ -1,0 +1,39 @@
+
+body{
+	background: url(https://raw.githubusercontent.com/juanmaguitar/CSS3-challenges/master/03-basic-selectors/materials/images/bg_page.png) center;
+	margin: 0 auto;
+	width: 60%;
+	background-size: 100%
+}
+div img{	
+	margin: 0 auto;
+}
+h1,h2,h3{
+	border-top: 2px solid #86a100;
+	color:#BD8100
+}
+body p:nth-child(3){
+	color:red;
+}
+body p:nth-child(4){
+	color:#69555f;
+}
+body p:nth-child(5){
+	background-color: #fbf8a9;
+	padding: 5px;
+	border: 2px dashed #c1881e;
+}
+body p:nth-child(8){
+	background-color: #fbf8a9;
+	padding: 5px;
+	border: 2px dashed #c1881e;
+}
+strong{
+	color: red;
+}
+h2+p{
+	color:#69555f;
+}
+h3+p{
+	color:#69555f;
+}

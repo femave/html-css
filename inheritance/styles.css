@@ -1,0 +1,16 @@
+body{
+	width: 800px;
+	margin:0 auto;
+}
+h1,h2,h3{
+	color:#bd8100;
+}
+p{
+	color:#ff6b1a;
+	padding-left: 10px;
+	margin-left:40px;
+	border-left:30px solid #bd8100;
+}
+ul{
+	color:#bd8100;
+}
